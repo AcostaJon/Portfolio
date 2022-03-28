@@ -1,0 +1,54 @@
+// keyframes and mixins
+@keyframes fade-out-horizontal {
+  0% {
+    transform: translateX(0px);
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-700px);
+  }
+}
+@keyframes fade-in-horizontal {
+  0% {
+    transform: translateX(700px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fade-out-vertical {
+  0% {
+    transform: translateY(0px);
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-700px);
+  }
+}
+@keyframes fade-in-vertical {
+  0% {
+    transform: translateY(700px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

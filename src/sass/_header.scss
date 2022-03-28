@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  div {
+    display: flex;
+    align-items: center;
+    h2 {
+      color: white;
+    }
+    i {
+      margin-left: 10px;
+      font-size: 40px;
+      transition: all 1.1s ease-out;
+    }
+    i:hover {
+      transform: scale(1.2);
+      color: rgb(187, 187, 187);
+    }
+  }
+}

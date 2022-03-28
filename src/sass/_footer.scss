@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+  h2 {
+    color: #e45826;
+    margin: 0;
+    span {
+      color: #e6d5b8;
+    }
+  }
+  p {
+    margin: 0;
+    color: white;
+  }
+}
